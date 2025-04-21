@@ -1,0 +1,65 @@
+x='awesome'
+def myFunc():
+  global x
+  x='fantastic'
+  print("Pyhton is "+x)
+myFunc()
+print("python is "+x)
+b="Bonsa"
+for x in b:
+  print(x)
+print(len(b))
+
+
+(),{},[],"",0,False,None
+
+class myClass:
+  def myFunc(self):
+    return 0
+myObj=myClass()
+print(bool(myObj))
+
+class myclass():
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+def myFunction():
+  return False
+if myFunction():
+  print("Yes")
+else:
+  print("No")
+  
+x = float(200)
+print(isinstance(x, int))
+
+
+name ="bonsa adugna mosisa "
+print(len(name))
+if len(name)<3:
+  print("Name should be a t least three characters")
+elif len(name)>30:
+  print("Name shoulf be less than 30 character")
+else:
+  print("Your name is approved")
+
+weight=int(input("Enter your weight please"))
+unit=input("if in kilogram please enter 'k' if in pound please enter 'p'")
+# unit=unit.lower;
+if unit.upper()=="L":
+  converted=weight*0.45
+  print(f"You weight is {converted}")
+elif unit.upper()=='P':
+  converted=weight+100
+  print(f"You weight is {converted}")
+
+
+
+thislist = ["apple", "banana", "cherry", "banana" ]
+print(len(thislist))
+print('-----------------------')
+for x in range(len(thislist)):
+  print(thislist[x])
