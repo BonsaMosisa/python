@@ -1,0 +1,23 @@
+from mymodule import person1
+import os
+import platform
+import datetime
+
+x=datetime.datetime.now()
+print(x)
+
+x = dir(person1)
+print(x)
+mx.greeting("Jonathan")
+
+
+a = mx.person1["age"]
+print(a)
+
+
+print (person1["age"])
+
+if os.path.exists("Bonsa.txt"):
+  os.remove("Bonsa.txt")
+else:
+  print("The file does not found")
