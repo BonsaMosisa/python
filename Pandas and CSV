@@ -1,0 +1,14 @@
+import pandas as pd
+data={
+  "calories":[490,530,690],
+  "duration":[23,24,54]
+}
+
+myVariable=pd.DataFrame(data,index=["cal1","cal2","cal3"])
+print(myVariable.loc["cal3"])
+# print(myVariable.loc[[0,1,2]])
+
+
+df = pd.read_csv('data.csv')
+
+print(df.to_string())
